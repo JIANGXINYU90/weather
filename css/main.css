@@ -1,0 +1,20 @@
+*{margin: 0;padding: 0;}
+li{list-style: none;font-size: 18px;cursor: default;color: black;}
+p,span{cursor: default;color: black;}
+.other{float: left;border:1px solid gray;border-radius: 15px;margin-left: 20px;padding: 10px;}
+#center{width: 800px;height:488px;/*margin:0 auto;*/border:1px solid gray;border-radius: 10px;
+	/*margin-top: 20px;*/position:absolute;top:50%;left:50%;margin-top:-264px;margin-left:-400px;
+	background-image: url(../img/background.jpg);}
+#btn{position: absolute;top: 20px;right: 20px;}
+#main{padding: 10px;padding-left: 20px;height:274px;border-bottom: 1px dashed gray;position: relative;}
+#place{font-size: 45px;display: inline-block;width: 310px;}
+#bigdata{font-size: 10px;}
+#bigdata p{font-size: 35px;}
+#bigdata span{line-height: 30px;font-size: 18px;}
+#bigdata li{line-height: 30px;}
+.other:hover{box-shadow:3px 2px 10px rgb(223,223,223);}
+#smalldata{overflow: hidden;padding:10px;padding-left: 0px;}
+.other{font-size: 5px;width:153px;height: 152px;}
+.other span,.other p{font-size: 17px;}
+#text{width: 120px;position: absolute;top: 19px;right: 83px;}
+#bgr{height: 150px;width: 150px;position: absolute;right: 350px;top: 120px;background-size: cover;}
